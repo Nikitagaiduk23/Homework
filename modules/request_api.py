@@ -5,7 +5,7 @@ from .read_json import read_json
 import json
 #Імпортуваня json
 data_api = read_json(name_file= 'config_api.json')
-#
+#Загружає вміст файла config_api (?)
 API_KEY = data_api['api_key']
 #Змінна зі значенням api ключа
 CITY_NAME = data_api['city_name']
